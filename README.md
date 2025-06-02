@@ -2,6 +2,10 @@
 
 **VISION** is a web application specially designed for people who are visually impaired. It provides full voice-based control to help users perform tasks easily without needing to touch the screen.
 
+## 🏠 Starting Point
+
+The project starts with the `home.html` file. Simply open it in a browser to launch the app.
+
 ## 🧠 How It Works
 
 When the web app is opened, it greets the user by saying:
@@ -31,4 +35,3 @@ The app will redirect to the **Person Detection** page and start detecting peopl
 
 ---
 
-Feel free to improve it further or let me know if you want me to add installation steps, usage, or a live demo link!
