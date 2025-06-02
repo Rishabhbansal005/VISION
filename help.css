@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+}
+.left-section {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  align-items: flex-start; /* align left */
+}
+
+
+.settings img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 15px; /* fixed the typo here */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 30px;
+  background-color: #007BFF;
+  border-radius: 20px;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.search-bar input {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.search-bar input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search-icon,
+.mic-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.top-row {
+  display: flex;
+  align-items: center; /* logo and search bar in one line */
+  gap: 15px; /* space between logo and search bar */
+}
+.emergency {
+  width: 200px;
+  height: 25px;
+  background-color: rgba(0, 123, 255, 0.8);
+  border-radius: 20px;
+  margin-top: 10px;
+   /* Text styling */
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 50px;
+  font-weight: 500;
+  user-select: none;   /* optional: prevent text selection */
+  min-height: 30px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+
+}
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: transparent; /* Transparent by default */
+  transition: background-color 0.2s ease;
+   justify-content: space-between;
+}
+
+.contact:hover {
+  background-color: #494c50; /* Blue on hover */
+}
+
+.contact-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  user-select: none;
+  padding-left: 20px;
+  flex: 1;
+  margin-right: 12px;
+}
+.call-icon{
+  width: 20px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+
+}
+
+.profile-pic {
+  width: 35px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 1000px;
+  gap: 50px;
+  padding-left: 70px;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}

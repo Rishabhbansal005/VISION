@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Currency Identifier</title>
+  <link rel="stylesheet" href="currency.css" />
+  <!-- TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0"></script>
+</head>
+<body>
+  <img src="logo.png" alt="Logo" class="logo" />
+
+  <div class="top-right-buttons">
+    <button class="mic-btn" onclick="handleMic()">
+      <img src="mic.png" alt="Mic" class="mic-icon" />
+    </button>
+  </div>
+
+  <!-- Camera Square -->
+  <div class="camera-container">
+    <video id="camera" autoplay muted playsinline></video>
+    <div id="currency-result" class="center-box">Detecting currency...</div>
+  </div>
+
+  <script src="currency.js"></script>
+  <script src="heyvision.js"></script>
+</body>
+</html>

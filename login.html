@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Logo Positioned at the Top-Left -->
+        <img src="logo.png" alt="Vision Logo" class="logo">
+
+        <div class="login-box">
+            <h2>LOGIN FORM</h2>
+            <form action="main.html" method="get">
+                <label for="phone">PHONE NO:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone no" required>
+
+                <label for="email">EMAIL ID:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">PASSWORD:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+                <label for="confirm">CONFIRM:</label>
+                <input type="password" id="confirm" name="confirm" placeholder="Confirm password" required>
+
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Voice Assistant Text -->
+        <p class="voice-text">Say “Hey Vision” To fill the form using voice</p>
+
+        <!-- Bottom Navigation (Help & Home Button) -->
+        <div class="bottom-nav">
+            <button class="help-btn">Help</button>
+            <a href="home.html" class="home-btn">Return to home</a>
+        </div>
+
+
+    </div>
+
+    <script src="heyvision.js"></script>
+
+</body>
+
+</html>

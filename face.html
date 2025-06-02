@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vision AI - TensorFlow Detection</title>
+  <link rel="stylesheet" href="face.css" />
+  <!-- TensorFlow.js & Coco-SSD -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+<body>
+  <img src="logo.png" alt="Logo" class="logo" />
+
+ 
+
+  <div class="top-right-buttons">
+   <a href="main.html" class="login-btn">Return to Main</a>
+
+  </div>
+
+  <!-- Camera Square -->
+  <div class="camera-container">
+    <video id="camera" autoplay muted playsinline></video>
+    <div id="detection-result" class="detection-message ">Loading model...</div>
+  </div>
+
+  <script src="face.js"></script>
+  <script src="heyvision.js"></script>
+</body>
+</html>

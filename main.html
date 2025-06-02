@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Main Screen</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Logo in the top-left -->
+    <img src="logo.png" alt="Vision Logo" class="logo">
+
+    <!-- Microphone Icon -->
+    <div class="mic-container">
+        <img src="mike.webp" alt="Mic Icon" class="mic">
+    </div>
+
+    <!-- Main text -->
+    <h1>Say “Hey Vision” To get started</h1>
+
+    <!-- Feature Icons with Buttons -->
+    <div class="features">
+        <div class="feature">
+            <img src="face.png" alt="Face Identification">
+            <p>Face identification</p>
+            <button class="feature-btn"onclick="window.location.href='face.html'">Start</button>
+        </div>
+        <div class="feature">
+            <img src="call.png" alt="Make a Call">
+            <p>Make a call</p>
+            <button class="feature-btn"onclick="window.location.href='call.html'">Start</button>
+        </div>
+        <div class="feature">
+            <img src="map.png" alt="Location">
+            <p>Location</p>
+            <button class="feature-btn"onclick="window.location.href='location.html'">Start</button>
+        </div>
+        <div class="feature">
+            <img src="money.png" alt="Currency Identifier">
+            <p>Currency Identifier</p>
+            <button class="feature-btn"onclick="window.location.href='currency.html'">Start</button>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="bottom-nav">
+        <button class="help-btn">Help</button>
+        <a href="home.html" class="home-btn"> Return to home</a>
+    </div>
+
+    <script src="heyvision.js"></script>
+
+</body>
+</html>

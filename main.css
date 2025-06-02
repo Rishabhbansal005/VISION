@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 70px;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 140px;
+}
+
+/* Microphone */
+.mic-container {
+    margin-top: 60px;
+}
+
+.mic {
+    width: 120px;
+    animation: glow 2s infinite alternate;
+}
+
+/* Glow effect */
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(0, 122, 255, 0.5));
+    }
+
+    100% {
+        filter: drop-shadow(0 0 20px rgba(0, 122, 255, 0.8));
+    }
+}
+
+/* Heading */
+h1 {
+    font-size: 22px;
+    margin-top: 25px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Feature Section */
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    filter: drop-shadow(0 0 10px rgba(0, 122, 255, 0.5));
+}
+
+.feature p {
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Feature Buttons */
+.feature-btn {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.feature-btn:hover {
+    background: linear-gradient(90deg, #00d4ff, #007bff);
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.5);
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 60px auto;
+}
+
+.help-btn {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.help-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.home-btn {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #00d4ff, #007bff);
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.5);
+}
+
+img[src="call.png"] {
+    height: 70px;
+    width: 70px;
+}
+
+img[src="face.png"] {
+    height: 70px;
+    width: 70px;
+
+}
+
+img[src="map.png"] {
+    height: 70px;
+    width: 70px;
+
+}
+
+img[src="money.png"] {
+    height: 70px;
+    width: 70px;
+
+}

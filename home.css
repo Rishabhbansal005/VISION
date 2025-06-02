@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+  }
+  
+  .center-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.45;
+    max-width: 95%;
+    max-height: 95%;
+    z-index: 1;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .vision-text {
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  
+  .tagline2 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  /* Animation keyframes */
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  /* Use Orbitron font for the text overlay */
+  .text-overlay {
+    font-family: 'Times new roman', sans-serif;
+  }
+  
+  .text-overlay {
+    animation: fadeSlideUp 2.2s ease-out forwards;
+    opacity: 0; /* Start hidden */
+  }
+  
+  .top-right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+  }
+  
+  .top-right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .mic-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .mic-icon {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+  
+  

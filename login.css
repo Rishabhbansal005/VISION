@@ -1,0 +1,145 @@
+
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #000; /* Changed background to black */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Positioning the Logo in the Top-Left */
+.logo {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 140px;
+}
+
+/* Login Box */
+.login-box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 102, 255, 0.3));
+    width: 50rem;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 75px auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 122, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(45deg, #2980b9, #6dd5fa);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.6);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button Styles */
+button {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: white;
+    padding: 12px 12pc;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.5);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00d4ff, #007bff);
+    box-shadow: 0 0 15px rgba(0, 122, 255, 0.8);
+}
+
+/* Voice Assistant Text */
+.voice-text {
+    margin-top: -39px;
+    font-size: 35px;
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 25px auto;
+}
+
+.help-btn {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    border: none;
+}
+
+.help-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.home-btn {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #00d4ff, #007bff);
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.5);
+}
+
+
+
+/* Glow Animation */
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(0, 122, 255, 0.5));
+    }
+    100% {
+        filter: drop-shadow(0 0 20px rgba(0, 122, 255, 0.8));
+    }
+}
